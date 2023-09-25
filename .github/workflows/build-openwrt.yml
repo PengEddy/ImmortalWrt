@@ -33,7 +33,7 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   ###############改名字##############
-  OPENWRT_NAME: LC-HX3001
+  OPENWRT_NAME: imou_lc-hx3001
 
 jobs:
   build:
