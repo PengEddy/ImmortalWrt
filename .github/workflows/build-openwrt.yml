@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############改名字##############
-name: build-openwrt
+name: Build-OpenWrt
 
 on:
   repository_dispatch:
@@ -33,7 +33,7 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   ###############改名字##############
-  OPENWRT_NAME: lc-hx3001
+  OPENWRT_NAME: mt798x
 
 jobs:
   build:
